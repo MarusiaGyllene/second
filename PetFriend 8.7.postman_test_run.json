@@ -1,0 +1,240 @@
+{
+	"id": "4c8f07ae-4fc9-4a15-baa9-5d9e4da54b20",
+	"name": "PetFriend 8.7",
+	"timestamp": "2022-11-26T06:42:50.267Z",
+	"collection_id": "24553755-a3ecd1d5-1b2f-4965-b694-6899377219e3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 40,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "14568eb5-5fae-423d-bf77-f7ea7e850562",
+			"name": "get api key",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Key in responseBody": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Key in responseBody": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				32,
+				33,
+				31,
+				33
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Key in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"Key in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"Key in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"Key in responseBody": true
+				}
+			]
+		},
+		{
+			"id": "863f0c59-0a38-41d6-b6c0-ceca4448bfe9",
+			"name": "Add new pet",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"petid in responseBody": true,
+				"name in responseBody": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"petid in responseBody": {
+					"pass": 4,
+					"fail": 0
+				},
+				"name in responseBody": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				42,
+				43,
+				43,
+				45
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"petid in responseBody": true,
+					"name in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"petid in responseBody": true,
+					"name in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"petid in responseBody": true,
+					"name in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"petid in responseBody": true,
+					"name in responseBody": true
+				}
+			]
+		},
+		{
+			"id": "6f9315b8-0334-4346-b01e-b65a5316997a",
+			"name": "Change pet's name",
+			"time": 105,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"new Name of the pet is not equal to the old name": true,
+				"new name in responseBody": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"new Name of the pet is not equal to the old name": {
+					"pass": 4,
+					"fail": 0
+				},
+				"new name in responseBody": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				100,
+				96,
+				100,
+				105
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"new Name of the pet is not equal to the old name": true,
+					"new name in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"new Name of the pet is not equal to the old name": true,
+					"new name in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"new Name of the pet is not equal to the old name": true,
+					"new name in responseBody": true
+				},
+				{
+					"Status code is 200": true,
+					"new Name of the pet is not equal to the old name": true,
+					"new name in responseBody": true
+				}
+			]
+		},
+		{
+			"id": "b44662e8-4c78-4c44-8f86-f2634f0b083f",
+			"name": "check new pet",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"new Name of the pet is equal to the first pets name": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 4,
+					"fail": 0
+				},
+				"new Name of the pet is equal to the first pets name": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				83,
+				74,
+				76,
+				76
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"new Name of the pet is equal to the first pets name": true
+				},
+				{
+					"Response time is less than 200ms": true,
+					"new Name of the pet is equal to the first pets name": true
+				},
+				{
+					"Response time is less than 200ms": true,
+					"new Name of the pet is equal to the first pets name": true
+				},
+				{
+					"Response time is less than 200ms": true,
+					"new Name of the pet is equal to the first pets name": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 1012,
+	"collection": {
+		"requests": [
+			{
+				"id": "14568eb5-5fae-423d-bf77-f7ea7e850562",
+				"method": "GET"
+			},
+			{
+				"id": "863f0c59-0a38-41d6-b6c0-ceca4448bfe9",
+				"method": "POST"
+			},
+			{
+				"id": "6f9315b8-0334-4346-b01e-b65a5316997a",
+				"method": "PUT"
+			},
+			{
+				"id": "b44662e8-4c78-4c44-8f86-f2634f0b083f",
+				"method": "GET"
+			}
+		]
+	}
+}
